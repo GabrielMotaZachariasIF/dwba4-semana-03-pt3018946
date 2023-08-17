@@ -6,40 +6,68 @@
   <meta name="viewport" content="width=device-width">
   <title>ifsp</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("header.html");
+    });
+  </script>
 </head>
 
 <body>
 
-  <img src="Logo.jpg" alt="Logo IFSP">
-
-  <p><b>Eventos</b></p>
-
-  <div style="margin-left: 38px;">
-    <img src="SEJA_RARO.jpg" style="width: 500px;" alt="Aniversário do IFSP - Pirituba - Palestra Augusto Aielo">
-    <p>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</p>
+  <div id="nav-placeholder">
   </div>
 
-  <h3>Sobre a biblioteca</h3>
-  <img src="library.jpeg" alt="Livros">
+  <img src="Logo.jpg" alt="Logo IFSP">
 
-  <h3>Conheça os novos títulos disponíveis na nossa biblioteca</h3>
+  <ul>
+    <li><a href="ads.html">Análise e desenvolvimento de sistemas</a></li>
+    <li><a href="eng.html">Engenharia de produção</a></li>
+    <li><a href="gest.html">Gestão em tecnologia da informação</a></li>
+    <li><a href="letras.html">Letras</a></li>
+    <li><a href="gestpub.html">Gestão pública</a></li>
+  </ul>
 
-  <p>Publicado: Quarta-feira, 14 de agosto de 2019</p>
+  <div>
+
+    <p><b>Eventos</b></p>
+
+    <div style="margin-left: 38px;">
+      <img src="SEJA_RARO.jpg" style="width: 500px;" alt="Aniversário do IFSP - Pirituba - Palestra Augusto Aielo">
+      <p>Aniversário do IFSP - Pirituba - Palestra Augusto Aielo</p>
+    </div>
+  </div>
+
+  <div>
+    <h3>Sobre a biblioteca</h3>
+    <img src="library.jpeg" alt="Livros">
+  </div>
+
+  <div>
+    <h3>Conheça os novos títulos disponíveis na nossa biblioteca</h3>
+
+    <p>Publicado: Quarta-feira, 14 de agosto de 2019</p>
+  </div>
 
   <h3>Conheça o SUAP</h3>
 
-  <iframe width="400" height="315" src="https://www.youtube.com/watch?v=1egUfDkqkaA">
-  </iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VYyQYs3JfgQ?si=x_nWtHFybRPZgT8T"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
 
   <br>
 
-  <div style="display: flex;">
-    <img onclick="topFunction()" id="myBtn" title="Go to top" src="MoveTop.png" style="width: 80px;">
-    <a href="https://www.facebook.com/"><img src="facebook.png" style="width: 80px;"></a>
-  </div>
+  <footer>
+    <div style="display: flex;">
+      <img onclick="topFunction()" id="myBtn" title="Go to top" src="MoveTop.png" style="width: 80px;">
+      <a href="https://www.facebook.com/"><img src="facebook.png" style="width: 80px;"></a>
+    </div>
 
-  <p>IFSP - Câmpus Pirituba - Av. Mutinga 915 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
-    2504-0100</p>
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga 915 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100</p>
+  </footer>
 
   <script src="script.js"></script>
 
